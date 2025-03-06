@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h1>About Myself</h1>
+    <h2>Personal Information</h2>
+    <form action="/submit">
+        <label for="name">Full Name: </label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="your gender">Gender: </label>
+        <br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <br><br>
+        <label for="date">D.O.B:</label>
+        <input type="text" id="date" name="date" required>
+        <br><br>
+        <label for="class">Class:</label>
+        <input type="text" id="class" name="class" required>
+        <br><br>
+        <label for="nation">Nationality:</label>
+        <input type="text" id="nation" name="nation" required>
+        <br><br>
+        <label for="religion">Religion:</label>
+        <input type="text" id="religion" name="religion" required>
+        <br><br>
+    </form>
+    <h2>Hobbies and Interests</h2>
+        <form action="/submit">
+            <label for="hobbies">Which of the activities do you enjoy in your leisure time?</label>
+            <br>
+            <input type="checkbox" id="h1" name="h1">
+            <label for="h1">Reading books</label>
+            <br>
+            <input type="checkbox" id="h2" name="h2">
+            <label for="h2">Art and Crafts</label>
+            <br>
+            <input type="checkbox" id="h3" name="h3">
+            <label for="h3">Dancing</label>
+            <br>
+            <input type="checkbox" id="h4" name="h4">
+            <label for="h4">Singing</label>
+            <br>
+            <input type="checkbox" id="h5" name="h5">
+            <label for="h5">Playing games</label>
+            <br><br>
+            <label for="interest">What do you wish to be when you grow up?</label>
+            <br>
+            <select name="jobs">
+                <option value="Police">Police</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Fire Fighter">Fire Fghter</option>
+                <option value="Sports player">Sports player</option>
+                <option value="Actor">Actor</option>
+                <option value="Doctor">Doctor</option>
+            </select>
+            <br><br>
+            <label for="explain">Briefly describe why you like that job?</label>
+            <br>
+            <textarea name="describe" rows="10" columns="15">Enter text here</textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+
+</body>
+</html>
